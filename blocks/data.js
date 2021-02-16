@@ -169,19 +169,19 @@ const setup = (language) => {
     {
       type: 'data_colors',
       message0: msg.get('colors.message0'),
+      previousStatement: null,
       nextStatement: null,
       style: 'data_block',
-      hat: 'cap',
       tooltip: msg.get('colors.tooltip'),
-      helpUrl: './guide/#colors'
+      helpUrl: './guide/#colors',
     },
     // Earthquakes
     {
       type: 'data_earthquakes',
       message0: msg.get('earthquakes.message0'),
+      previousStatement: null,
       nextStatement: null,
       style: 'data_block',
-      hat: 'cap',
       tooltip: msg.get('earthquakes.tooltip'),
       helpUrl: './guide/#earthquakes'
     },
@@ -189,9 +189,9 @@ const setup = (language) => {
     {
       type: 'data_penguins',
       message0: msg.get('penguins.message0'),
+      previousStatement: null,
       nextStatement: null,
       style: 'data_block',
-      hat: 'cap',
       tooltip: msg.get('penguins.tooltip'),
       helpUrl: './guide/#penguins'
     },
@@ -199,9 +199,9 @@ const setup = (language) => {
     {
       type: 'data_phish',
       message0: msg.get('phish.message0'),
+      previousStatement: null,
       nextStatement: null,
       style: 'data_block',
-      hat: 'cap',
       tooltip: msg.get('phish.tooltip'),
       helpUrl: './guide/#phish'
     },
@@ -222,8 +222,8 @@ const setup = (language) => {
         }
       ],
       nextStatement: null,
+      previousStatement: null,
       style: 'data_block',
-      hat: 'cap',
       tooltip: msg.get('sequence.tooltip'),
       helpUrl: './guide/#sequence'
     },
@@ -249,8 +249,8 @@ const setup = (language) => {
         }
       ],
       nextStatement: null,
+      previousStatement: null,
       style: 'data_block',
-      hat: 'cap',
       tooltip: msg.get('data_user.tooltip'),
       helpUrl: './guide/#user'
     }
